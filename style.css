@@ -33,3 +33,25 @@ ol{
 li{
     color: black;
 }
+
+.cabeçalho{
+    background-color: crimson;
+}
+
+.bigodon{
+    width: 170px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lista-cabeçalho{
+    display: flex;
+    margin-left: 250px;
+}
+.item{
+color: black;
+list-style: none;
+text-transform: uppercase;
+padding: 5px;
+}

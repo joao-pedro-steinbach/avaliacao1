@@ -8,6 +8,8 @@ nav {
     top: 110px;
     right: 0px;
 }
+
+
 nav li {
     display: inline;
     margin: 0 0 0 15px;
@@ -21,6 +23,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+color: #C78C19;
+text-decoration: underline;
+}
 .caixa {
     width: 940px;
     position: relative;
@@ -35,7 +41,17 @@ nav a {
     padding: 50px 0;
     margin: 0 1.5%;
     padding: 30px 20px;
+    border: #000000 solid 2px;
+    border-radius: 10px;}
+
+.produtos li:hover {
+    border-color: #C78C19;
 }
+
+.produtos li :active {
+      border-color:#088C19 
+}
+
 
 .produtos{
     width: 940px;

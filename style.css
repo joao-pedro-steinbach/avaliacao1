@@ -71,3 +71,9 @@ header {
     color: #C78C19;
     text-decoration: underline;
     }
+
+    .caixa {
+        width: 940px;
+        position: relative;
+        margin: 0 auto;
+    }
